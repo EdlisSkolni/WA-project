@@ -2,6 +2,8 @@
     background: #DDD8CE;
 }
 .head{
+    display: flex;
+    justify-content: space-between;
     background-color:#334464;
     height: 80px;
     width: calc(100%);
@@ -16,8 +18,8 @@
 }
 .content{
     width: calc((100%)-4px);
-    height: calc(69vw);
-    max-height: 450px;
+    height: calc(60vw);
+    max-height: 435px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
@@ -29,22 +31,46 @@
 .bottom{
     background-color:#334464;
     height: 60px;
+    font-size: 20px;
     width: calc(100%);
 }
 .navigation{
     background-color: rgba(51, 68, 100, 0.82);
     border-radius: 40px;
-    height: calc(37vw);
-    max-height: 250px;
+    height: calc(46vw);
+    max-height: 310px;
     width: calc(100%);
     font-size: 42px;
     text-align: center;
 }
+.navigationClick{
+    position: relative;
+    background-color: #222222;
+    border-radius: 40px;
+    height: 50px;
+    width: calc(90%);
+    left: 2.5%;
+    margin: 10px;
+}
 .login{
-    float: right;
     font-size: 35px;
     margin: 5px;
     height: 70px;
     width: 180px;
     background-color: #D9D9D9;
+}
+
+.leftBarMain{
+    width: calc(7%);
+    background-color:#334464;
+    height: 60px;
+}
+
+.leftBar{
+    position: relative;
+    background-color: #222222;
+    border-radius: 40px;
+    height: 20px;
+    width: calc(100%);
+    margin: 5px;
 }
