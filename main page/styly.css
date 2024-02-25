@@ -18,7 +18,7 @@
 }
 .content{
     width: calc((100%)-4px);
-    height: calc(60vw);
+    height: calc(53vw);
     max-height: 435px;
     border-width: 2px;
     border-style: solid;
@@ -47,10 +47,40 @@
     position: relative;
     background-color: #222222;
     border-radius: 40px;
-    height: 50px;
+    height: calc(12%);
+    max-height: 50px;
     width: calc(90%);
     left: 2.5%;
+    margin: calc(2%);
+}
+.navigationClick0{
+    position: relative;
+    background-color: #222222;
+    border-radius: 40px;
+    height: 0px;
+    width: 0px;
+    left: 2.5%;
     margin: 10px;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0);
+    width: calc(100%);
+}
+@media only screen and (min-width: 665px) {
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navigationClick{
+        height: 50px;
+        width: calc(30%);
+        margin: 10px;
+    }
+    .navigationClick0{
+        height: 50px;
+        width: calc(30%);
+        margin: 10px;
+    }
 }
 .login{
     font-size: 35px;
