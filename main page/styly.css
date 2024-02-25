@@ -1,5 +1,5 @@
 *{
-    background: #DDD8CE;
+    background-color: #DDD8CE;
 }
 .head{
     display: flex;
@@ -66,22 +66,6 @@
     background-color: rgba(0, 0, 0, 0);
     width: calc(100%);
 }
-@media only screen and (min-width: 665px) {
-    .navigation{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navigationClick{
-        height: 50px;
-        width: calc(30%);
-        margin: 10px;
-    }
-    .navigationClick0{
-        height: 50px;
-        width: calc(30%);
-        margin: 10px;
-    }
-}
 .login{
     font-size: 35px;
     margin: 5px;
@@ -102,5 +86,49 @@
     border-radius: 40px;
     height: 20px;
     width: calc(100%);
+    max-width: 85px;
     margin: 5px;
+}
+@media only screen and (min-width: 665px) {
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navigationClick{
+        height: 50px;
+        width: calc(30%);
+        margin: 10px;
+    }
+    .navigationClick0{
+        height: 50px;
+        width: calc(30%);
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    #under{
+        display: flex;
+        height: 735px;
+    }
+    .navigation{
+        order: 2;
+        height: calc(100%);
+        max-height: 1000px;
+        width: calc(25%);
+    }
+    .content{
+        order: 1;
+        margin-right: calc(2%);
+        height: calc(100%);
+        max-height: 1000px;
+        width: calc(72%);
+    }
+    .navigationClick{
+        height: 43px;
+        width: calc(90%);
+    }
+    .navigationClick0{
+        height: 43px;
+        width: calc(90%);
+    }
 }
