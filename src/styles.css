@@ -1,0 +1,328 @@
+*{
+    background-color: #DDD8CE;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color:#334464;
+    height: 80px;
+    width: calc(100%);
+}
+.space{
+    height: calc(5vw);
+    max-height: 30px;
+}
+.lowerSpace{
+    height: calc(2vw);
+    max-height: 15px;
+}
+.content{
+    width: calc((100%)-4px);
+    height: calc(53vw);
+    max-height: 435px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+}
+.bottom{
+    background-color:#334464;
+    height: 60px;
+    font-size: 20px;
+    width: calc(100%);
+}
+.navigation{
+    background-color: rgba(51, 68, 100, 0.82);
+    border-radius: 40px;
+    height: calc(46vw);
+    max-height: 310px;
+    width: calc(100%);
+    font-size: 42px;
+    text-align: center;
+}
+.navigationClick{
+    position: relative;
+    background-color: #222222;
+    border-radius: 40px;
+    height: calc(12%);
+    max-height: 50px;
+    width: calc(90%);
+    left: 2.5%;
+    margin: calc(2%);
+}
+.navigationClick0{
+    position: relative;
+    background-color: #222222;
+    border-radius: 40px;
+    height: 0px;
+    width: 0px;
+    left: 2.5%;
+    margin: 10px;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0);
+    width: calc(100%);
+}
+.login{
+    font-size: 35px;
+    margin: 5px;
+    height: 70px;
+    width: 180px;
+    background-color: #D9D9D9;
+}
+
+.leftBarMain{
+    width: calc(7%);
+    background-color:#334464;
+    height: 60px;
+}
+
+.leftBar{
+    position: relative;
+    background-color: #222222;
+    border-radius: 40px;
+    height: 20px;
+    width: calc(100%);
+    max-width: 85px;
+    margin: 5px;
+}
+
+
+/* ==== Ondrej Kacirek ==== */
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.site-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.bottom-button {
+    display: none;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    background-color: #334464;
+}
+.bottom-button button {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+}
+.layout{
+    display: flex;
+    gap: 4em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.side-navigation {
+    display: block;
+    background-color: #334464;
+    width: 30%;  
+    min-height: fit-content;
+    margin-left: auto;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.side-navigation h2 {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.side-navigation .navigation-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    height: min-content;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.navigation-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+}
+.navigation-wrapper .navigation-item{
+    background-color: #222222;
+    border-radius: 40px;
+    width: 100%;
+    height: 30px;
+}
+
+.side-navigation button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    height: 20px;
+    color: white;
+    background-color: #222222;
+    width: 100%;
+}
+
+.side-edit{
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    background-color: #334464;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px;
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+
+.side-edit .details{    
+    display: flex;
+    width: 100%;
+    gap: 10px; 
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.side-edit button {
+    height: fit-content;
+    padding: 10px 50px;
+    border: none;
+    background-color: white;
+    font-size: 1em;
+}
+.personal-data-heading{
+    display: none;
+    text-align: center;
+    background-color: #334464;
+}
+.side-edit .details-bubble {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 300px;
+    min-height: 100px;
+}
+.details-bubble h4 {
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0);
+}
+.details-bubble p {
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (min-width: 665px) {
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    .navigationClick{
+        height: 50px;
+        width: calc(30%);
+        margin: 10px;
+    }
+    .navigationClick0{
+        height: 50px;
+        width: calc(30%);
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    #under{
+        display: flex;
+        height: 735px;
+    }
+    .navigation{
+        order: 2;
+        height: calc(100%);
+        max-height: 1000px;
+        width: calc(25%);
+    }
+    .content{
+        order: 1;
+        margin-right: calc(2%);
+        height: calc(100%);
+        max-height: 1000px;
+        width: calc(72%);
+    }
+    .navigationClick{
+        height: 43px;
+        width: calc(90%);
+    }
+    .navigationClick0{
+        height: 43px;
+        width: calc(90%);
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .head{
+        display: none;
+    }
+    .side-edit {
+        flex-direction: column;
+    }
+    .side-edit .details {
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .personal-data-heading{
+        display: block;
+    }
+    .layout {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .side-navigation {
+        display: none;
+    }
+    .bottom{
+        display: none;
+    }
+    .bottom-button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 665px) { 
+    .side-edit {
+        flex-direction: column;
+    }
+    .side-edit .details {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .bottom-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-button button {
+        width: 80%;
+    }
+}
