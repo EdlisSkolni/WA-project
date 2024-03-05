@@ -1,7 +1,21 @@
-Hodnicení:
-  Jakub Hofman: Kuba ukázal dobrou znalost html a css. Celkově bylo příjemné s ním spolupracovat. Byl trpělivý, pracovitý a chápal, že moje úroveň mých schopností nejsou na úrovni Kuby a Ondry.
+# Rozdělení Práce
+## Stránka - Ondra
+- Login Page: Pavel
+- About Page: Kuba
 
-  Ondřej Kačírek: Ondra ukázal doubrou týmovou práci a prokázal své znalosti. Ondra si vzal na starosti usnadnění komunikace mezi naší skupinou s malou prodlevou od zadání projektu, což byl za mě dobrý nápad. Jako Kuba předvedl dobré znalosti html a css.
+## Stránka - Pavel
+- Login Page: Kuba 
+- Personal Data: Ondra
+
+## Stránka - Kuba
+- Login Page: Ondra
+- Location Page: Pavel
+
+#Hodnocení: Jakub Hofman
+Kuba ukázal dobrou znalost html a css. Celkově bylo příjemné s ním spolupracovat. Byl trpělivý, pracovitý a chápal, že moje úroveň mých schopností nejsou na úrovni Kuby a Ondry.
+
+#Hodnocení: Ondřej Kačírek
+Ondra ukázal doubrou týmovou práci a prokázal své znalosti. Ondra si vzal na starosti usnadnění komunikace mezi naší skupinou s malou prodlevou od zadání projektu, což byl za mě dobrý nápad. Jako Kuba předvedl dobré znalosti html a css.
 
 
 
